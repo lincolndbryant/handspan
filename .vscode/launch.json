@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:handspan}",
+            "name": "Debug Handspan",
+            "target": "Handspan",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Handspan"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:handspan}",
+            "name": "Release Handspan",
+            "target": "Handspan",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Handspan"
+        }
+    ]
+}
